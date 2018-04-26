@@ -16,7 +16,7 @@ func main() {
 	width, height := getImageDimension(os.Args[1])
 	widthStr := strconv.Itoa(width)
 	heightStr := strconv.Itoa(height)
-
+	fmt.Println(textPtr)
 	fmt.Println("width=", widthStr)
 	fmt.Println("height=", heightStr)
 	fmt.Println(len(os.Args), os.Args[1])
