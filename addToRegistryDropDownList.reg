@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Get image size]
+"MUIVerb"="Get image size"
+"SubCommands"="get-image-size-html;get-image-size-css"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\get-image-size-html]
+@="Get image size html inline"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\get-image-size-html\command]
+@="\"C:\\get-image-size-html.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\get-image-size-css]
+@="Get image size css"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\get-image-size-css\command]
+@="\"C:\\get-image-size-css.exe\" \"%1\""
