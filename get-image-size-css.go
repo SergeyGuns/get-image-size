@@ -24,9 +24,9 @@ func main() {
 	fmt.Print("Press 'Enter' to continue...")
 
 	clipboard.WriteAll(
-		"width:" + widthStr + "px" + "\n" +
-			"height:" + heightStr + "px" + "\n" +
-			"background-image: url(" + os.Args[1] + ")")
+		"width:" + widthStr + "px" + ";\n" +
+			"height:" + heightStr + "px" + ";\n" +
+			"background-image: url(" + os.Args[1] + ");")
 
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 
