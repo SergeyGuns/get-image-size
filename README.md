@@ -1,5 +1,6 @@
 # get-image-size
-* win <=7 \
+Copy Image size to Clipboard like, CSS or HTML.
+* tested on windows 10 \
 * copy *.exe to c:\\ \
 * run and agree addToRegistryDropDownList.reg
 
